@@ -1,0 +1,278 @@
+@REFLECTION_CONFIG[default]
+{
+	%enabled = true
+}
+KSP_MODEL_SHADER
+{
+	name = Stock_foil
+
+		model = CryoTanks/Parts/HydrogenTanks/hydrogen-inline/hydrogen-10-1
+
+	MATERIAL 
+	{
+		shader = SSTU/PBR/StockMetallicBumped
+		texture = _MainTex,TUCaR/CryoTanks/Parts/HydrogenTanks/hydrogen-inline/hydrogen-10-1_diff
+		excludeMesh = 10mStructure
+		Mesh = 10mTankFoil
+		excludeMesh = 10mTankIso
+	}
+}
+KSP_MODEL_SHADER
+{
+	name = Stock_foil
+
+		model = CryoTanks/Parts/HydrogenTanks/hydrogen-inline/hydrogen-10-1
+
+	MATERIAL 
+	{
+		shader = SSTU/PBR/StockMetallicBumped
+		texture = _MainTex,TUCaR/CryoTanks/Parts/HydrogenTanks/hydrogen-inline/hydrogen-common-truss-2_diff
+		Mesh = 10mStructure
+		excludeMesh = 10mTankFoil
+		excludeMesh = 10mTankIso
+	}
+}
+KSP_MODEL_SHADER
+{
+	name = Stock_foil
+
+		model = CryoTanks/Parts/HydrogenTanks/hydrogen-inline/hydrogen-10-1
+
+	MATERIAL 
+	{
+		shader = SSTU/PBR/StockMetallicBumped
+		texture = _MainTex,TUCaR/CryoTanks/Parts/HydrogenTanks/hydrogen-inline/hydrogen-10-2_diff
+		excludeMesh = 10mStructure
+		excludeMesh = 10mTankFoil
+		excludeMesh = 10mTankIso
+	}
+}
+/////
+KSP_MODEL_SHADER
+{
+	name = Stock_foil
+
+		model = CryoTanks/Parts/HydrogenTanks/hydrogen-inline/hydrogen-5-1
+		model = CryoTanks/Parts/HydrogenTanks/hydrogen-inline/hydrogen-5-2
+		model = CryoTanks/Parts/HydrogenTanks/hydrogen-inline/hydrogen-25-1
+		model = CryoTanks/Parts/HydrogenTanks/hydrogen-inline/hydrogen-125-1
+		model = CryoTanks/Parts/HydrogenTanks/hydrogen-inline/hydrogen-125-2
+		model = CryoTanks/Parts/HydrogenTanks/hydrogen-inline/hydrogen-25-2
+		model = CryoTanks/Parts/HydrogenTanks/hydrogen-inline/hydrogen-375-1
+
+	MATERIAL 
+	{
+		shader = SSTU/PBR/StockMetallicBumped
+		texture = _MainTex,TUCaR/CryoTanks/Parts/HydrogenTanks/hydrogen-inline/hydrogen-5-2_diff
+		excludeMesh = 5mStructure
+		excludeMesh = 5mStructureCompact
+		excludeMesh = 5mTankExtra
+		Mesh = 5mTankFoil
+		Mesh = 5mTankFoilStructured
+		excludeMesh = 5mTankIso
+		excludeMesh = 5mTankIsoStructured
+		excludeMesh = 5mTankIsoStructuredExtra
+
+		excludeMesh = 375mStructure
+		excludeMesh = 375mStructureCompact
+		excludeMesh = 375TankExtra
+		excludeMesh = 375TankExtraStructured
+		Mesh = 375TankFoil
+		Mesh = 375TankFoilStructured
+		excludeMesh = 375TankIso
+		excludeMesh = 375TankIsoStructured
+
+		excludeMesh = 25mStructure
+		excludeMesh = 25TankExtra
+		excludeMesh = 25TankExtraStructured
+		Mesh = 25TankFoil
+		Mesh = 25TankFoilStructured
+		excludeMesh = 25TankIso
+		excludeMesh = 25TankIsoStructured
+
+		excludeMesh = 125mStructure
+		excludeMesh = 125TankExtra
+		excludeMesh = 125TankExtraStructured
+		excludeMesh = 125TankFoil
+		Mesh = 125TankFoilStructured
+		excludeMesh = 125TankIso
+		excludeMesh = 125TankIsoStructured 
+	}
+	MATERIAL 
+	{
+		shader = SSTU/PBR/StockMetallicBumped
+		texture = _MainTex,TUCaR/CryoTanks/Parts/HydrogenTanks/hydrogen-inline/hydrogen-common_diff
+		Mesh = 5mStructure
+		Mesh = 5mStructureCompact
+		excludeMesh = 5mTankExtra
+		excludeMesh = 5mTankFoil
+		excludeMesh = 5mTankFoilStructured
+		excludeMesh = 5mTankIso
+		excludeMesh = 5mTankIsoStructured
+		excludeMesh = 5mTankIsoStructuredExtra
+
+		Mesh = 375mStructure
+		Mesh = 375mStructureCompact
+		excludeMesh = 375TankExtra
+		excludeMesh = 375TankExtraStructured
+		excludeMesh = 375TankFoil
+		excludeMesh = 375TankFoilStructured
+		excludeMesh = 375TankIso
+		excludeMesh = 375TankIsoStructured
+
+		Mesh = 25mStructure
+		excludeMesh = 25TankExtra
+		excludeMesh = 25TankExtraStructured
+		excludeMesh = 25TankFoil
+		excludeMesh = 25TankFoilStructured
+		excludeMesh = 25TankIso
+		excludeMesh = 25TankIsoStructured
+
+		Mesh = 125mStructure
+		excludeMesh = 125TankExtra
+		excludeMesh = 125TankExtraStructured
+		excludeMesh = 125TankFoil
+		excludeMesh = 125TankFoilStructured
+		excludeMesh = 125TankIso
+		excludeMesh = 125TankIsoStructured 
+	}
+}
+KSP_MODEL_SHADER
+{
+	name = Stock_foil
+
+		model = CryoTanks/Parts/HydrogenTanks/hydrogen-inline/hydrogen-5-1
+		model = CryoTanks/Parts/HydrogenTanks/hydrogen-inline/hydrogen-5-2
+
+	MATERIAL 
+	{
+		shader = SSTU/PBR/StockMetallicBumped
+		texture = _MainTex,TUCaR/CryoTanks/Parts/HydrogenTanks/hydrogen-inline/hydrogen-5-1_diff
+		excludeMesh = 5mStructure
+		excludeMesh = 5mStructureCompact
+		Mesh = 5mTankExtra
+		excludeMesh = 5mTankFoil
+		excludeMesh = 5mTankFoilStructured
+		excludeMesh = 5mTankIso
+		excludeMesh = 5mTankIsoStructured
+		excludeMesh = 5mTankIsoStructuredExtra
+
+	}
+}
+KSP_MODEL_SHADER
+{
+	name = Stock_foil
+
+		model = CryoTanks/Parts/HydrogenTanks/hydrogen-inline/hydrogen-25-1
+
+	MATERIAL 
+	{
+		shader = SSTU/PBR/StockMetallicBumped
+		texture = _MainTex,TUCaR/CryoTanks/Parts/HydrogenTanks/hydrogen-inline/hydrogen-25-1_diff
+		excludeMesh = 25mStructure
+		Mesh = 25TankExtra
+		excludeMesh = 25TankExtraStructured
+		excludeMesh = 25TankFoil
+		excludeMesh = 25TankFoilStructured
+		excludeMesh = 25TankIso
+		excludeMesh = 25TankIsoStructured
+
+	}
+}
+KSP_MODEL_SHADER
+{
+	name = Stock_foil
+
+		model = CryoTanks/Parts/HydrogenTanks/hydrogen-inline/hydrogen-5-3
+		model = CryoTanks/Parts/HydrogenTanks/hydrogen-inline/hydrogen-25-3
+
+	MATERIAL 
+	{
+		shader = SSTU/PBR/StockMetallicBumped
+		texture = _MainTex,TUCaR/CryoTanks/Parts/HydrogenTanks/hydrogen-inline/hydrogen-flat-1_diff
+		excludeMesh = 5mBare
+		excludeMesh = 5mCompactStructExtra
+		excludeMesh = 5mCoreStructure
+		excludeMesh = 5mStructure
+		excludeMesh = 5mStructureCompact
+		Mesh = Short5mTankFoil
+		Mesh = Short5mTankFoilStructured
+		excludeMesh = Short5mTankIso
+		excludeMesh = Short5mTankIsoStructured
+
+		excludeMesh = 25mStructure
+		excludeMesh = Short25TankCompact
+		excludeMesh = Short25TankCore
+		Mesh = Short25TankFoil
+		Mesh = Short25TankFoilStructured
+		excludeMesh = Short25TankIso
+		excludeMesh = Short25TankIsoStructured
+
+
+	}
+	MATERIAL 
+	{
+		shader = SSTU/PBR/StockMetallicBumped
+		texture = _MainTex,TUCaR/CryoTanks/Parts/HydrogenTanks/hydrogen-inline/hydrogen-common_diff
+		excludeMesh = 5mBare
+		excludeMesh = 5mCompactStructExtra
+		excludeMesh = 5mCoreStructure
+		Mesh = 5mStructure
+		excludeMesh = 5mStructureCompact
+		excludeMesh = Short5mTankFoil
+		excludeMesh = Short5mTankFoilStructured
+		excludeMesh = Short5mTankIso
+		excludeMesh = Short5mTankIsoStructured
+
+		Mesh = 25mStructure
+		excludeMesh = Short25TankCompact
+		excludeMesh = Short25TankCore
+		excludeMesh = Short25TankFoil
+		excludeMesh = Short25TankFoilStructured
+		excludeMesh = Short25TankIso
+		excludeMesh = Short25TankIsoStructured
+	}
+	MATERIAL 
+	{
+		shader = SSTU/PBR/StockMetallicBumped
+		texture = _MainTex,TUCaR/CryoTanks/Parts/HydrogenTanks/hydrogen-inline/hydrogen-common-truss-2_diff
+		Mesh = 5mBare
+		excludeMesh = 5mCompactStructExtra
+		Mesh = 5mCoreStructure
+		excludeMesh = 5mStructure
+		excludeMesh = 5mStructureCompact
+		excludeMesh = Short5mTankFoil
+		excludeMesh = Short5mTankFoilStructured
+		excludeMesh = Short5mTankIso
+		excludeMesh = Short5mTankIsoStructured
+		
+		excludeMesh = 25mStructure
+		excludeMesh = Short25TankCompact
+		Mesh = Short25TankCore
+		excludeMesh = Short25TankFoil
+		excludeMesh = Short25TankFoilStructured
+		excludeMesh = Short25TankIso
+		excludeMesh = Short25TankIsoStructured
+	}
+}
+KSP_MODEL_SHADER
+{
+	name = Stock_foil
+
+		model = CryoTanks/Parts/HydrogenTanks/hydrogen-radial/hydrogen-radial-25-1
+		model = CryoTanks/Parts/HydrogenTanks/hydrogen-radial/hydrogen-radial-125-1
+
+	MATERIAL 
+	{
+		shader = SSTU/PBR/StockMetallicBumped
+		texture = _MainTex,TUCaR/CryoTanks/Parts/HydrogenTanks/hydrogen-radial/hydrogen-radial-1_diff
+		Mesh = 25TankFoil
+		Mesh = 25TankTankStructured
+		excludeMesh = 25TankIso
+
+		Mesh = 125TankFoil
+		Mesh = 125TankTankStructured
+		excludeMesh = 125TankIso
+	}
+
+}

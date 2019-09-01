@@ -1,0 +1,137 @@
+@REFLECTION_CONFIG[default]
+{
+	%enabled = true
+}
+KSP_MODEL_SHADER
+{
+	name = Stock_FullMetal
+	
+		model = Squad/Parts/Aero/aerodynamicNoseCone/model 
+
+	MATERIAL
+	{
+		shader = SSTU/PBR/Metallic
+		
+		inheritTexture = _MainTex
+		inheritTexture = _BumpMap
+		inheritTexture = _Emissive
+
+		excludeMesh = flagTransform
+		excludeMesh = Flag
+
+		PROPERTY
+		{
+			name = _Metal
+			float = 0.75
+		}
+		PROPERTY
+		{
+			name = _Smoothness
+			float = 0.75
+		}
+	}
+}
+
+KSP_MODEL_SHADER
+{
+	name = Stock_Partial
+	model = Squad/Parts/Resources/RadialTank/RadialOreTank
+	model = Squad/Parts/Electrical/z-100Battery/model
+	MATERIAL 
+	{
+		shader = SSTU/PBR/Metallic		
+		inheritTexture = _MainTex
+		inheritTexture = _BumpMap
+		inheritTexture = _Emissive
+		mesh = rung
+		mesh = ksp_s_resourceContainer_fbx
+		mesh = battery
+		PROPERTY
+		{
+			name = _Metal
+			float = 0.75
+		}
+		PROPERTY
+		{
+			name = _Smoothness
+			float = 0.75
+		}
+	}
+	MATERIAL 
+	{
+		shader = SSTU/PBR/Metallic		
+		inheritTexture = _MainTex
+		inheritTexture = _BumpMap
+		inheritTexture = _Emissive
+		mesh = window
+		mesh = SideWindow
+		mesh = FrontWindow
+		mesh = indicator
+		PROPERTY
+		{
+			name = _Metal
+			float = 0.0
+		}
+		PROPERTY
+		{
+			name = _Smoothness
+			float = 1.0
+		}
+	}
+}
+
+
+KSP_MODEL_SHADER
+{
+	name = Stock_LandingGear
+	model = Squad/Parts/Wheel/LandingGear/GearSmall
+	model = Squad/Parts/Wheel/LandingGear/GearMedium
+	model = Squad/Parts/Wheel/LandingGear/GearLarge
+	model = Squad/Parts/Wheel/LandingGear/GearExtraLarge
+
+	MATERIAL
+	{
+		shader = SSTU/PBR/StockMetallicBumped		
+		inheritTexture = _MainTex
+		inheritTexture = _BumpMap
+		inheritTexture = _Emissive
+		excludeMesh = Base
+		excludeMesh = BayDoor1
+		excludeMesh = BayDoor2
+		excludeMesh = Flare
+		excludeMesh = flare
+		PROPERTY
+		{
+			name = _Metal
+			float = 0.75
+		}
+	}
+}
+
+KSP_MODEL_SHADER
+{
+	name = Stock_FuelLine
+	model = Squad/Parts/CompoundParts/fuelLine/model
+	MATERIAL 
+	{
+		shader = SSTU/PBR/Metallic
+		
+		inheritTexture = _MainTex
+		inheritTexture = _BumpMap
+		inheritTexture = _Emissive
+		mesh = anchor-Pivot
+		mesh = obj_anchorCap_pivot
+		mesh = obj_targetAnchor-Pivot
+		mesh = obj_targetCap-Pivot
+		PROPERTY
+		{
+			name = _Metal
+			float = 0.75
+		}
+		PROPERTY
+		{
+			name = _Smoothness
+			float = 0.75
+		}
+	}
+}
